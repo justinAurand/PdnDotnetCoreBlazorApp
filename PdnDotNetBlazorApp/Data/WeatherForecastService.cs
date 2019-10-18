@@ -8,16 +8,16 @@ namespace PdnDotNetBlazorApp.Data
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing",
+            "Balmy",
             "Bracing",
             "Chilly",
             "Cool",
-            "Mild",
-            "Warm",
-            "Balmy",
+            "Freezing",
             "Hot",
+            "Mild",
+            "Scorching",
             "Sweltering",
-            "Scorching"
+            "Warm",
         };
 
         public Task<WeatherForecast[]> GetForecastAsync(DateTime startDate)
